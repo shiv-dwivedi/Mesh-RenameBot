@@ -7,4 +7,4 @@ COPY . .
 RUN pip install --upgrade pip && pip install -U -r requirements.txt
 
 CMD [ "python", "-m", "MeshRenameBot" ]
-EXPOSE 80/tcp
+EXPOSE 8080/tcp
