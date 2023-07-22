@@ -5,6 +5,6 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN pip install --upgrade pip && pip install -U -r requirements.txt
-
+RUN --expose=8080
 CMD [ "python", "-m", "MeshRenameBot" ]
-EXPOSE tcp
+
