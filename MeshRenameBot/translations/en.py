@@ -2,7 +2,7 @@ class EnTrans:
     
     WRONG_VALUE_ERROR = "Invalid value entered for {} variable."
     
-    START_MSG = "Hello there, Just send a file.
+    START_MSG = "Hello there, Just send a file."
     
     CANCEL_MESSAGE = "The rename has been canceled. Will be updated soon."
     
